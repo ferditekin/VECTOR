@@ -5,6 +5,8 @@ build.properties
 # generated java classes and java source files
 #   manually add any custom artifacts that can't be generated from the models
 #   http://confluence.jetbrains.com/display/MPSD25/HowTo+--+MPS+and+Git
+https://cloud.githubusercontent.com/assets/9398297/4781651/ac17e6d6-5cb4-11e4-9dd4-d9ca6abca417.png
+
 classes_gen
 source_gen
 source_gen.caches
