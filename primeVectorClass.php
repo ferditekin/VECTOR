@@ -153,7 +153,7 @@ class PrimeVector
 		$mtime = $mtime[1] + $mtime[0];
 		$this->endtime = $mtime;
 
-		$this->imageData = "Image Header,X:$this->XXA,Y:$this->endcount; ".$this->imageData;
+		$this->imageData = "Image Header,X:$this->XXA,Y:$this->endcount,Execution Time:".$this->getTime().",Date:".date("Y-m-d").",Time:".date("H:i:s").",Time Zone:".date("c")."; ".$this->imageData;
 		//****************************
 	}
 
