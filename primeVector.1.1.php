@@ -277,7 +277,7 @@ else if($form_visualchecked == "checked")
 //Draw picture
 //*******************
 print "<br/><br/><img src='primeVectorImageClass.php?xresolution=10&yresolution=10&border=10&random=1&urlax=".$form_ax."&urlb0x=".$form_begin."&urlbnx=".$form_end."&urlXXA=".$form_XXA."&urlYYA=0&urlZZA=0' title='Prime Vecor Image Class Colored' alt='Prime Vecor Image Class Colored'/>";
-print "<br/><br/><img src='primeVectorImageClass.php?xresolution=10&yresolution=10&border=10&random=0&urlax=".$form_ax."&urlb0x=".$form_begin."&urlbnx=".$form_end."&urlXXA=".$form_XXA."&urlYYA=0&urlZZA=0' title='Prime Vecor Image Class Black/Wite' alt='Prime Vecor Image Class Black/Wite'/>";
+print "<br/><br/><img src='primeVectorImageClass.php?xresolution=10&yresolution=10&border=10&random=0&urlax=".$form_ax."&urlb0x=".$form_begin."&urlbnx=".$form_end."&urlXXA=".$form_XXA."&urlYYA=0&urlZZA=0' title='Prime Vecor Image Class Black/White' alt='Prime Vecor Image Class Black/White'/>";
 //*******************
 echo "<br/><br/><br/><br/><br/><br/>
 *******************************************************<br/>
