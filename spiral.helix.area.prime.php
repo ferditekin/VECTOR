@@ -14,8 +14,8 @@
  * @author Ferdi Tekin <ferditekin@polimore.com>
  * @version 1.0
  * @package Release
- * @sourcecode Show  
- * @sourceplace Bottom  
+ * @sourcecode  
+ * @sourceplace  
  * @primaryrelation Think Vector
  * @primaryplace Think Vector https://github.com/ThinkVector/VECTOR
  * @date 27.11.2014 
