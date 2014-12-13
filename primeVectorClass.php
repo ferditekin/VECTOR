@@ -354,7 +354,7 @@ class PrimeVector
 
 			$this->endcount++;
 			$this->setPrimeVectorRaw( );
-			$next_ok = $this->begin;
+			$next_ok = 1;
 		}
 		else
 		{
