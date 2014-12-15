@@ -69,26 +69,26 @@ class PrimeVector
 
 		// number count total if division by 
 		// 2 ( 4, 6, 8, 10 ), 3, 4, 5 ( 10 ), 
-		// 6, 7, 8, 9, 10
+		// 6, 8, 9, 10
 		$number2 = array_map( 'intval', str_split( $number ) );
 		$ncountfor2 = 0;
 		$ncountfor3 = 0;
 		$ncountfor5 = 0;
-		$ncountfor7 = 0;
-		$ncountfor7_left = 0;
-		$ncountfor7_right = "";
+		//$ncountfor7 = 0;
+		//$ncountfor7_left = 0;
+		//$ncountfor7_right = "";
 		$ncountfor9 = 0;
 	
 		foreach( $number2 as $key => $value )
 		{
 			$ncountfor3 		+= $value;
-			$ncountfor7_right 	.= $number2[( $key + 1 )].$ncountfor7_right;
+			//$ncountfor7_right 	.= $number2[( $key + 1 )].$ncountfor7_right;
 		}
 
 		$ncountfor9		= $ncountfor3;
 		$ncountfor5 		= $ncountfor2 = $number2[$key];
-		$ncountfor7_right 	= $number2[0];
-		$ncountfor7 		= $ncountfor7_right - ( $ncountfor7_left * 2 );
+		//$ncountfor7_right 	= $number2[0];
+		//$ncountfor7 		= $ncountfor7_right - ( $ncountfor7_left * 2 );
 	
 		if( ( $ncountfor2 % 2 ) == 0 )
 		{
@@ -102,10 +102,10 @@ class PrimeVector
 		{
 			return false;
 		}
-		else if( ( $ncountfor7 % 7 ) == 0 && $ncountfor7 > 7 )
-		{
-			return false;
-		}
+		//else if( ( $ncountfor7 % 7 ) == 0 && $ncountfor7 > 7 )
+		//{
+		//	return false;
+		//}
 		else if( ( $ncountfor9 % 9 ) == 0 )
 		{
 			return false;
