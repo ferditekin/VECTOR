@@ -23,6 +23,69 @@
  *********************************************************************************************
  */
 
+/* How to Use
+Prime Vector Class:
+
+Operation system for all part in hardware, downlink, software,
+user, network, connection, server, internet, web, people, 
+uplink, global. Can produce measurable prime number interval 
+vector data (like bar-code or crypted image data), 
+operating system, software performance, hardware verification, 
+user authentication, transaction scalable data validation class 
+for use any communication and any transaction
+
+
+machine to user
+user to user
+downlink to uplink
+user to uplink
+people to dowlink
+people to uplink
+software to connection
+people to user
+...
+...
+...
+n * n to m * m
+
+Within this coverage range is capable of producing a prime vector 
+data for any transmitter and any receiver. Created data in the 
+data of this prime vector class which can take place only with 
+the prime data of binary data and its creation condition. Hence 
+the difficulty of data occurs or does not affect the performance 
+of check and checkout status. Created a kind of control data is 
+used as a safety crypted/switch/pass keys.
+
+
+How to Use
+
+Example:
+
+Check range in prime vector class:
+
+A B C D
+E F G H
+I J K L
+M N O R
+
+Result 
+A prime, 
+C prime, 
+G prime, 
+K prime,
+M prime, 
+N prime, and
+R prime
+
+Created data for checkin (cryted / pass key):
+
+
+Data Type, Data Range (X, Y, Z), Execution Time, Time Zone
+1 0 1 0
+0 0 1 0
+0 0 1 0
+1 1 0 1
+*/
 
 
 class PrimeVector
@@ -74,7 +137,7 @@ class PrimeVector
 		$ncountfor2 = 0;
 		$ncountfor3 = 0;
 		$ncountfor5 = 0;
-		//$ncountfor7 = 0;
+		$ncountfor7 = 0;
 		//$ncountfor7_left = 0;
 		//$ncountfor7_right = "";
 		$ncountfor9 = 0;
@@ -82,12 +145,12 @@ class PrimeVector
 		foreach( $number2 as $key => $value )
 		{
 			$ncountfor3 		+= $value;
-			//$ncountfor7_right 	.= $number2[( $key + 1 )].$ncountfor7_right;
+			$ncountfor7_right 	.= $number2[( $key + 1 )].$ncountfor7_right;
 		}
 
 		$ncountfor9		= $ncountfor3;
 		$ncountfor5 		= $ncountfor2 = $number2[$key];
-		//$ncountfor7_right 	= $number2[0];
+		//$ncountfor7_left 	= $number2[0];
 		//$ncountfor7 		= $ncountfor7_right - ( $ncountfor7_left * 2 );
 	
 		if( ( $ncountfor2 % 2 ) == 0 )
