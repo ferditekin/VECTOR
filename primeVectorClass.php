@@ -145,7 +145,7 @@ class PrimeVector
 		foreach( $number2 as $key => $value )
 		{
 			$ncountfor3 		+= $value;
-			$ncountfor7_right 	.= $number2[( $key + 1 )].$ncountfor7_right;
+			//$ncountfor7_right 	.= $number2[( $key + 1 )].$ncountfor7_right;
 		}
 
 		$ncountfor9		= $ncountfor3;
