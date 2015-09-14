@@ -10,4 +10,4 @@ Thinking : Vector is an operating system. Refers to self-dependencies. Express t
 What is the HYPER and hyper prime:
 https://tr.pinterest.com/hyperplane/
 
-![What is the hyper?](https://tr.pinterest.com/pin/512847476295108639/)
+![What is the hyper?](https://s-media-cache-ak0.pinimg.com/originals/a6/a2/87/a6a287193d155fc4f2fa74f643e7e34a.jpg)
