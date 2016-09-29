@@ -1,0 +1,24 @@
+HyperOS : Donanım üzerinde çalışan yazılım tabanlı işletim sistemi (SECURE)
+	1. Yazılım  araçları ve donanım ivmesi değerlerini kontrol eder.
+	2. İşlevi işletim sistemini çalıştıran AUTO.INF dosyasını ait işletim durumunun ana kaydı tutar.
+	3. AUTO.INF durumu sorunları için kayıt tutar.
+
+HyperPS : Cihaz donanımı üzerinde çalışan yazılım ve cihaz tabanlı işletim sistemi (SECURE)
+	1. Donanım yazılım ivmeleri durumlarına ait kayıtları HyperOS'a gönderir.
+	2. HyperPS kendi donanım ivmeleri için AUTO.INF dosyalarının bir kopyasını güvenli biçimde saklar.
+	3. Kendini başlatmak için AUTO.INF konfigurasyonunu değiştirebilir.
+	4. AUTO.INF başlatma seçeneği, işletim sisteminin donanımsal ivmelendirme durumu kontrol eden PS yada OS seçeneklerinde çalışabilir.
+	5. PS yada OS değerlerini işleten yazılım kendi performans değerlerini AUTO.INF kaydında tutar.
+	6. AUTO.INF ana kaydı değerlerden emin olmak için, ve kendi kaydına ait kaydın fiziksel yeni adresini değerlendirir. Yeni fiziksel kayda ait durumunu güncel tutar.
+	7. Basit görünümlüdür, sertificasyon yöntemlerine göre ve cihaz bulunan donanımlara göre kendini yükseltebilir.
+
+Cihaz -> 
+	1. Auto.inf (HyperPS),
+	2. Başlatıcı, 
+	3. Kontrolcü HyperPS (PS/OS), 
+	4. Katman geliştirici bağlantısı, HyperOS
+	5. Cihaz konfigürasyoncusu ve bakım işlemleri
+
+Başlatıcı -> Cihazdan PS/OS değerini başlatır.
+AUTO.INF  -> PS/OS sürücüsü/yazılımı değerlendiricisidir.
+Starter -> Cihazda bulunan cihaz açıcı ve çalıştırıcısı. Button/Switch/SecureCapacitiveSwicth/SecureAnahtar
