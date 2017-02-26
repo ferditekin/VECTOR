@@ -58,6 +58,18 @@ Cube dimension 9 special points:
 	Dimension transform angles:
 		roor2 (rox2, roy2, roz2, rot2, orx2, ory2, orz2, ort2, ror2)
 
+	Self move position:
+		move1 (mox1, moy1, moz1, mot1, omx1, omy1, omz1, omt1, mov1)
+
+	Dimension move positon:
+		move2 (mox2, moy2, moz2, mot2, omx2, omy2, omz2, omt2, mov2)
+
+	Self move path:
+		movep1 (mpx1, mpy1, mpz1, mpt1, pmx1, pmy1, pmz1, pmt1, mvp1)
+
+	Dimension move path:
+		movep2 (mpx2, mpy2, mpz2, mpt2, pmx2, pmy2, pmz2, pmt2, mvp2)
+
 	Area color:
 		car (R9, G9, B9, A9)
 		cah (R8, G8, B8, A8)
@@ -237,6 +249,10 @@ Vectors: Dimension Min:			{ddr1}
 Vectors: Dimension Max:			{ddr2}
 Vectors: Self Transform Angles:		{roor1}
 Vectors: Dimension Transform Angles:	{roor2}
+Vectors: Self move position:		{move1}
+Vectors: Dimension move positon:	{move2}
+Vectors: Self move path:		{movep1}
+Vectors: Dimension move path:		{movep2}
 Vectors: Area Color:			{car, cah, cag, caf, cae, cad, cac, cab, caa}
 Vectors: Dimension Color:   		{czr, czh, czg, cyf, cye, cyd, cxc, cxb, cxa}
 
