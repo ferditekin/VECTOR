@@ -1,0 +1,248 @@
+Basic Object Transformation:
+
+Cube self 9 special points:
+	a (x1, y1, z1)
+	b (x2, y2, z2)
+	c (x3, y3, z3)
+	d (x4, y4, z4)
+	e (x5, y5, z5)
+	f (x6, y6, z6)
+	g (x7, y7, z7)
+	h (x8, y8, z8)
+	r (x9, y9, z9)
+
+Cube dimension 9 special points:
+	xa (x1, y1, z1)
+	xb (x2, y2, z2)
+	xc (x3, y3, z3)
+	yd (x4, y4, z4)
+	ye (x5, y5, z5)
+	yf (x6, y6, z6)
+	zg (x7, y7, z7)
+	zh (x8, y8, z8)
+	zr (x9, y9, z9)
+
+	Self rectangle:
+		xa1 (x1, y1, z1)
+		ya1 (x2, y2, z2)
+		za1 (x3, y3, z3)
+		ta1 (x4, y4, z4)
+
+	Dimension rectangle:
+		xv1 (x1, y1, z1)
+		yv1 (x2, y2, z2)
+		zv1 (x3, y3, z3)
+		tv1 (x4, y4, z4)
+
+	Self time:
+		t1 (tx1, ty1, tz1)
+
+	Dimension time:
+		t2 (tx2, ty2, tz2)
+
+	Self min:
+		sdr1 (x1, y1, z1)
+
+	Self max:
+		sdr2 (x2, y2, z2)
+
+	Dimension min:
+		ddr1 (x1, y1, z1)
+
+	Dimension max:
+		ddr2 (x2, y2, z2)
+
+	Area color:
+		car (R9, G9, B9, A9)
+		cah (R8, G8, B8, A8)
+		cag (R7, G7, B7, A7)
+		caf (R6, G6, B6, A6)
+		cae (R5, G5, B5, A5)
+		cad (R4, G4, B4, A4)
+		cac (R3, G3, B3, A3)
+		cab (R2, G2, B2, A2)
+		caa (R1, G1, B1, A1)
+
+	Dimension color:
+		czr (R9, G9, B9, A9)
+		czh (R8, G8, B8, A8)
+		czg (R7, G7, B7, A7)
+		cyf (R6, G6, B6, A6)
+		cye (R5, G5, B5, A5)
+		cyd (R4, G4, B4, A4)
+		cxc (R3, G3, B3, A3)
+		cxb (R2, G2, B2, A2)
+		cxa (R1, G1, B1, A1)
+
+
+Shape transformation:
+
+Hexagon 2: H2
+	Lenght: H2L
+	{(a,b), (b,c), (c,d), (d,e), (e,f), (f,a)}
+	Radius: H2R
+	{(a,r), (b,r), (c,r), (d,r), (e,r), (f,r)}
+	Area Color: H2A
+	{(a,b), (b,c), (c,d), (d,e), (e,f), (f,a)} , {(cr)}
+	Area Out Color:	H2AO
+	{(czr)}, {(a,b), (b,c), (c,d), (d,e), (e,f), (f,a)}
+
+Hexagon 1 signal: H1S
+	Lenght: H1SL
+	{(a,b), (b,c), (c,d), (d,d)}, {Signal Transform}
+	Radius: H1SR
+	{(a,r), (b,r), (c,r), (d,r)},
+	Area color: H1SA
+	{(a,b), (b,c), (c,d), (d,d)} , {(cr)}, {Signal Transform}
+	Area out color: H1SAO
+	{(czr)}, {(a,b), (b,c), (c,d), (d,d)}, {Signal Transform}
+
+Hexagon 1 circle: H1C
+	Lenght: H1CL
+	{(a,b), (b,c), (c,d), (d)}, {Circle Transform}
+	Radius: H1CR
+	{(a,r), (b,r), (c,r), (d,r)},
+	Area color: H1CA
+	{(a,b), (b,c), (c,d), (d)} , {(cr)}, {Circle Transform}
+	Area out color: H1CAO
+	{(czr)}, {(a,b), (b,c), (c,d), (d)}, {Circle Transform}
+
+Hexagon 1 triangle: H1T
+	Lenght: H1TL
+	{(a,b), (b,c), (c,a)}
+	Radius: H1TR
+	{(a,r), (b,r), (c,r)}
+	Area color: H1TA
+	{(a,r), (b,r), (c,r)} , {(cr)}
+	Area out color: H1TAO
+	{(czr)}, {(a,r), (b,r), (c,r)}
+
+Hexagon 1 square: H1Q
+	Lenght: H1QL
+	{(a,b), (b,c), (c,d), (d,a)}
+	Radius: H1QR
+	{(a,r), (b,r), (c,r), (d,r)}
+	Area color: H1QA
+	{(a,r), (b,r), (c,r), (d,r)} , {(cr)}
+	Area out color: H1QAO
+	{(czr)}, {(a,r), (b,r), (c,r), (d,r)}
+
+Hexagon 2 signal: H2S
+	Lenght: H2SL
+	{(a,b), (b,c), (c,d), (d,e), (e,f), (f,g), (g,h), (h,h)}, {Signal Transform}
+	Radius: H2SR
+	{(a,r), (b,r), (c,r), (d,r), (e,r), (f,r), (g,r), (h,r)}
+	Area color: H2SA
+	{(a,b), (b,c), (c,d), (d,e), (e,f), (f,g), (g,h), (h,h)}, {(cr)}, {Signal Transform}
+	Area out color: H2SAO
+	{(czr)}, {(a,b), (b,c), (c,d), (d,e), (e,f), (f,g), (g,h), (h,h)}, {Signal Transform}
+
+Hexagon 2 circle: H2C
+	Lenght: H2CL
+	{(a,b), (b,c), (c,d), (d,e), (e,f), (f,g), (g,h), (h,a)}, {Circle Transform}
+	Radius: H2CR
+	{(a,r), (b,r), (c,r), (d,r), (e,r), (f,r), (g,r), (h,r)}
+	Area color: H2CA
+	{(a,b), (b,c), (c,d), (d,e), (e,f), (f,g), (g,h), (h,a)}, {(cr)}, {Circle Transform}
+	Area out color: H2CAO
+	{(czr)}, {(a,b), (b,c), (c,d), (d,e), (e,f), (f,g), (g,h), (h,a)}, {Circle Transform}
+
+Hexagon 2 square: H2Q
+	Lenght: H2QL
+	{(a,b), (b,c), (c,d), (d,e), (e,f), (f,g), (g,h), (h,a)}
+	Radius: H2QR
+	{(a,r), (b,r), (c,r), (d,r), (e,r), (f,r), (g,r), (h,r)}
+	Area color: H2QA
+	{(a,b), (b,c), (c,d), (d,e), (e,f), (f,g), (g,h), (h,a)}, {(cr)}
+	Area out color: H2QAO
+	{(czr)}, {(a,b), (b,c), (c,d), (d,e), (e,f), (f,g), (g,h), (h,a)}
+
+Hexagon 2 pentagon: H2P
+	Lenght: H2PL
+	{(a,b), (b,c), (c,d), (d,e), (e,a)}
+	Radius: H2PR
+	{(a,r), (b,r), (c,r), (d,r), (e,r)}
+	Area color: H2PA
+	{(a,b), (b,c), (c,d), (d,e), (e,a)}, {(cr)}
+	Area out color: H2PAO
+	{(czr)}, {(a,b), (b,c), (c,d), (d,e), (e,a)}
+
+Hexagon 2 sphere H2SP
+	Lenght: H2SPL
+	{(a,b), (b,c), (c,d), (d,e), (e,f), (f,g), (g,h), (h,a)}, {Circle Transform}
+	Radius: H2SPR
+	{(a,r), (b,r), (c,r), (d,r), (e,r), (f,r), (g,r), (h,r)}
+	Area color: H2SPA
+	{(a,b), (b,c), (c,d), (d,e), (e,f), (f,g), (g,h), (h,a)}, {(cr)}, {Circle Transform}
+	Area out color: H2SPAO
+	{(czr)}, {(a,b), (b,c), (c,d), (d,e), (e,f), (f,g), (g,h), (h,a)}, {Circle Transform}
+	Solid color: H2SPV
+	{(a,b), (b,c), (c,d), (d,e), (e,f), (f,g), (g,h), (h,a)}, {(cr)}, {Circle Transform}
+
+Hexagon 2 tetrahedral: H2TE
+	Lenght: H2TEL
+	{(a,b), (b,c), (c,a), (d,a), (d,b), (d,c)}
+	Radius: H2TER
+	{(a,r), (b,r), (c,r), (d,r)}
+	Area color: H2TEA
+	{(a,b), (b,c), (c,a), (d,a), (d,b), (d,c)}, {(cr)}
+	Area out color: H2TEAO
+	{(czr)}, {(a,b), (b,c), (c,a), (d,a), (d,b), (d,c)}		
+	Solid color: H2TEV
+	{(a,b), (b,c), (c,a), (d,a), (d,b), (d,c)}, {(cr)}
+
+Hexagon 2 pyramide: H2PY
+	Lenght: H2PYL
+	{(a,b), (b,c), (c,d), (d,a), (e,a), (e,b), (e,c), (e,d)}
+	Radius: H2PYR
+	{(a,r), (b,r), (c,r), (d,r), (e,r)}
+	Area color: H2PYA
+	{(a,b), (b,c), (c,d), (d,a), (e,a), (e,b), (e,c), (e,d)}, {(cr)}
+	Area out color: H2PYO
+	{(czr)}, {(a,b), (b,c), (c,d), (d,a), (e,a), (e,b), (e,c), (e,d)}		
+	Solid color: H2PYV
+	{(a,b), (b,c), (c,d), (d,a), (e,a), (e,b), (e,c), (e,d)}, {(cr)}
+
+Hexagon 2 cube: H2CU
+	Lenght: H2CUL
+	{(a), (b), (c), (d), (e), (f), (f), (g), (h)}
+	Radius: H2CUR
+	{(a,r), (b,r), (c,r), (d,r), (e,r), (f,r), (g,r), (h,r)}
+	Area color: H2CUA
+	{(a), (b), (c), (d), (e), (f), (f), (g), (h)}, {(cr)}
+	Area out color: H2CUAO
+	{(czr)}, {(a), (b), (c), (d), (e), (f), (f), (g), (h)}		
+	Solid color: H2CUV
+	{(a), (b), (c), (d), (e), (f), (f), (g), (h)}, {(cr)}
+
+
+***************************************************************************
+Summary:
+***************************************************************************
+Vectors: Self: 		       	{a,   b,   c,   d,   e,   f,   g,   h,   r} 
+Vectors: Dimension: 	      	{xa,  xb,  xc,  yd,  ye,  yf,  zg,  zh,  zr}
+Vectors: Self Rectangle:	{xa1, ya1, za1, ta1}
+Vectors: Dimension Rectangle:	{ax1, ay1, az1, at1}
+Vectors: Self Time:		{t1}
+Vectors: Dimension Time:    	{t2}
+Vectors: Self Min:		{sdr1}
+Vectors: Self Max: 		{sdr2}
+Vectors: Dimension Min:		{ddr1}
+Vectors: Dimension Max: 	{ddr2}
+Vectors: Area Color:		{car, cah, cag, caf, cae, cad, cac, cab, caa}
+Vectors: Dimension Color:   	{czr, czh, czg, cyf, cye, cyd, cxc, cxb, cxa}
+
+Hexagon 2: 		H2:		H2L,   H2R,   H2A,   H2AO
+Hexagon 1 Signal: 	H1S:		H1SL,  H1SR,  H1SA,  H1SAO
+Hexagon 1 Circle: 	H1C:		H1CL,  H1CR,  H1CA,  H1CAO
+Hexagon 1 Triangle:	H1T:		H1TL,  H1TR,  H1TA,  H1TAO
+Hexagon 1 Square: 	H1Q:		H1QL,  H1QR,  H1QA,  H1QAO
+Hexagon 2 Signal:	H2S:		H2SL,  H2SR,  H2SA,  H2SAO
+Hexagon 2 Circle:	H2C:		H2CL,  H2CR,  H2CA,  H2CAO
+Hexagon 2 Square:	H2Q:		H2QL,  H2QR,  H2QA,  H2QAO
+Hexagon 2 Pentagon:	H2P:		H2PL,  H2PR,  H2PA,  H2PAO
+Hexagon 2 Tetrahedral: 	H2TE:		H2TEL, H2TER, H2TEA, H2TEAO, H2TEV
+Hexagon 2 Pyramide: 	H2PY:		H2PYL, H2PYR, H2PYA, H2PYAO, H2PYV
+Hexagon 2 Shpere:	H2SP:		H2SPL, H2SPR, H2SPA, H2SPAO, H2SPV
+Hexagon 2 Cube:		H2CU:		H2CUL, H2CUR, H2CUA, H2CUAO, H2CUV
+***************************************************************************
