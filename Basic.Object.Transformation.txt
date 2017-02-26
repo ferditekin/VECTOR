@@ -52,6 +52,12 @@ Cube dimension 9 special points:
 	Dimension max:
 		ddr2 (x2, y2, z2)
 
+	Self transform angles:
+		roor1 (rox1, roy1, roz1, rot1, orx1, ory1, orz1, ort1)
+
+	Dimension transform angles:
+		roor2 (rox2, roy2, roz2, rot2, orx2, ory2, orz2, ort2)
+
 	Area color:
 		car (R9, G9, B9, A9)
 		cah (R8, G8, B8, A8)
