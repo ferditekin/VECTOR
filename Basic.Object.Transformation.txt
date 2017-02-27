@@ -1,5 +1,33 @@
 Basic Object Transformation:
 
+
+
+
+              c(x,y,z) * * * * * * * * * * * * * * * d(x,y,z)
+                     * .                         * *
+                   *   .                       *   *
+                 *     .                     *     *
+               *       .                   *       *
+             *         .                 *         *
+   b(x,y,z) * * * * * * * * * * * * * * * h(x,y,z) *
+            *          .                *          *
+            *          .                *          *
+            *          .                *          *
+            *          .      x r(x,y,z)*          *
+            *          .                *          *
+            *          .                *          *
+            *          . . . . . . . . .*. . . . . * e(x,y,z)
+            *         . g(x,y,z)        *         *
+            *       .                   *       *
+            *     .                     *     *
+            *   .                       *   *
+            * .                         * *
+   a(x,y,z) * * * * * * * * * * * * * * * f(x,y,z)
+
+
+
+
+
 Cube self 9 special points:
 	a (x1, y1, z1)
 	b (x2, y2, z2)
@@ -270,3 +298,4 @@ Hexagon 2 Pyramide: 	H2PY:		H2PYL, H2PYR, H2PYA, H2PYAO, H2PYV
 Hexagon 2 Shpere:	H2SP:		H2SPL, H2SPR, H2SPA, H2SPAO, H2SPV
 Hexagon 2 Cube:		H2CU:		H2CUL, H2CUR, H2CUA, H2CUAO, H2CUV
 ***************************************************************************
+
