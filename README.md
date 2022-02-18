@@ -16,4 +16,6 @@ Cosmology Level Logic Mechanism: https://www.thingiverse.com/groups/flying-and-g
 
 6D Area Hardware Operation Cosmology Shell: https://www.thingiverse.com/thing:4826213
 
+Hyper Plane Development Studio (C++): https://github.com/ferditekin/HyperPlane
+
 ![What is the hyper?](https://s-media-cache-ak0.pinimg.com/originals/a6/a2/87/a6a287193d155fc4f2fa74f643e7e34a.jpg)
