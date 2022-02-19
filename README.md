@@ -12,7 +12,7 @@ https://github.com/ThinkVector/VECTOR/blob/master/primeVectorClass.php
 
 Cosmology Realities: https://www.thingiverse.com/thing:4730415
 
-Cosmology Level Logic Mechanism: https://www.thingiverse.com/groups/flying-and-ground-vehicles/things
+Cosmologic Level Logics Mechanism: https://www.thingiverse.com/groups/flying-and-ground-vehicles/things
 
 6D Area Hardware Operation Cosmology Shell: https://www.thingiverse.com/thing:4826213
 
