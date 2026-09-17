@@ -1,30 +1,6 @@
 <?php
 /*********************************************************************************************
  * Prime Vector Codex Class Source Code.
- * Prime number vectorial matrix and vectorial graphic table.
- * *******************************************************************************************
- * This file demonstrates the rich information that can be included in
- * *******************************************************************************************
- * The above formula, the prime numbers in numbers plane
- * Ax, Ay or Az. Results obtained from the above formula,
- * which will be advantageous to use the unit automatically
- * shows the analytical plane. Vector in the first series
- * of the formula, primes numbers say bid welcome to us.
- *********************************************************************************************
- * @author Ferdi Tekin <ferditekin@gmail.com> <ferditekin@outlook.com>
- * @version 1.2
- * @package Release
- * @sourcecode Show 
- * @sourceplace Bottom 
- * @primaryrelation Think Vector
- * @primaryplace Think Vector https://github.com/ThinkVector/VECTOR
- * @date 17.09.2026
- * @time 05:07 
- *********************************************************************************************
- */
-
-/*********************************************************************************************
- * Prime Vector Codex Class Source Code.
  * PHP 8.4 Compatible Version
  *********************************************************************************************
  */

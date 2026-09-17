@@ -5,7 +5,7 @@
  *********************************************************************************************
  */
 
-require_once("primeVectorClass.php");
+require_once("/home/ferditekin/public_html/include/primeVectorClass/primeVectorClass.php");
 
 class PrimeVectorImageClass
 {
